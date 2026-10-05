@@ -10,25 +10,23 @@ First, add this tap to your Homebrew environment:
 brew tap Timo-In/tap
 ```
 
-Then, you can install the specific tools provided by this tap.
+Then, you can install any formula or cask provided by this tap:
 
-### Later
+### Casks (GUI Applications)
 
-Save all your Mac apps for later with one click (macOS menu bar app).
+- **later**
 
-```bash
-brew install --cask later
-```
+  ```bash
+  brew install --cask later
+  ```
 
-### autossh
+### Formulae (CLI Tools)
 
-A simple ssh connection manager, written in Go.
+- **autossh**
 
-```bash
-brew install autossh
-```
-
----
+  ```bash
+  brew install autossh
+  ```
 
 ## Update & Maintenance
 
@@ -36,7 +34,7 @@ To update the formulae/casks in this tap to the latest versions:
 
 ```bash
 brew update
-brew upgrade later
+brew upgrade
 ```
 
 ## 📜 License
