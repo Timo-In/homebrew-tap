@@ -1,16 +1,24 @@
-# yaogh99123/homebrew-tap
+# Timo-In/homebrew-tap
 
-Personal Homebrew Tap for high-performance developer tools.
+Personal Homebrew Tap for developer tools and macOS applications.
 
 ## How to Install
 
 First, add this tap to your Homebrew environment:
 
 ```bash
-brew tap yaogh99123/tap
+brew tap Timo-In/tap
 ```
 
 Then, you can install the specific tools provided by this tap.
+
+### Later
+
+Save all your Mac apps for later with one click (macOS menu bar app).
+
+```bash
+brew install --cask later
+```
 
 ### PHPantom LSP
 
