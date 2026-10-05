@@ -1,8 +1,8 @@
 cask "later" do
   version "1.91"
-  sha256 :no_check # Will be replaced with specific sha256 upon release or kept as :no_check
+  sha256 "d7a3af021cf8d7f9ac15bf234d9f117e665b65ee96d57750daeb72d19232ae48"
 
-  url "https://github.com/Timo-In/later/releases/latest/download/Later.dmg"
+  url "https://github.com/Timo-In/later/releases/download/v1.91-dev.4/Later.dmg"
   name "Later"
   desc "Mac menu bar app that clears and restores your workspace with ease"
   homepage "https://github.com/Timo-In/later"
