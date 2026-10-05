@@ -20,64 +20,25 @@ Save all your Mac apps for later with one click (macOS menu bar app).
 brew install --cask later
 ```
 
-### PHPantom LSP
+### autossh
 
-A ultra-fast PHP Language Server written in Rust.
-
-```bash
-brew install phpantom_lsp
-```
-
-### bashd
-
-A specialized bash language server / daemon.
+A simple ssh connection manager, written in Go.
 
 ```bash
-brew install bashd
-```
-
-### systemd-lsp
-
-Language Server for systemd unit files.
-
-```bash
-brew install systemd-lsp
-```
-
-### Opencode
-
-Open source developer collaboration tool.
-
-```bash
-brew install opencode
+brew install autossh
 ```
 
 ---
 
-## Usage
-
-Once installed, you can use the tools directly from your terminal:
-
-```bash
-# Verify PHPantom LSP installation
-phpantom_lsp --version
-
-# Verify bashd installation
-bashd --version
-
-# Verify systemd-lsp installation
-systemd-lsp --version
-```
-
 ## Update & Maintenance
 
-To update the formulae in this tap to the latest versions:
+To update the formulae/casks in this tap to the latest versions:
 
 ```bash
 brew update
-brew upgrade phpantom_lsp
+brew upgrade later
 ```
 
 ## 📜 License
 
-The formulae in this repository are available under the [MIT License](LICENSE).
+The formulae and casks in this repository are available under the [MIT License](LICENSE).
