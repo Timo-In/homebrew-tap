@@ -5,28 +5,28 @@
 class SerieTimo < Formula
   desc "Git commit graph with Timo's file tree and diff viewer"
   homepage "https://github.com/Timo-In/serie"
-  version "0.10.1-timo"
+  version "0.10.1-timo.1"
   license "MIT"
 
   depends_on "git"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/Timo-In/serie/releases/download/v0.10.1-timo/serie-timo-0.10.1-timo-aarch64-apple-darwin.tar.gz"
-      sha256 "16ba8daa63319708e6cf984b475908ec15a7a74089a3c2cf25b2b986ebb2ec08"
+      url "https://github.com/Timo-In/serie/releases/download/v0.10.1-timo.1/serie-timo-0.10.1-timo.1-aarch64-apple-darwin.tar.gz"
+      sha256 "4fd718e28eb838fae2b9db34ef947b43aa93f229f6ed679f67d62d7cd8b5d380"
     else
-      url "https://github.com/Timo-In/serie/releases/download/v0.10.1-timo/serie-timo-0.10.1-timo-x86_64-apple-darwin.tar.gz"
-      sha256 "bc2fca624b8dc64d856ea67f65d162b795c979b8a1a80641156aac552cb5fb07"
+      url "https://github.com/Timo-In/serie/releases/download/v0.10.1-timo.1/serie-timo-0.10.1-timo.1-x86_64-apple-darwin.tar.gz"
+      sha256 "03fd933401a840d41930e52af78fc27fb787c641f7d314d7ee584a1f7e3b93ce"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/Timo-In/serie/releases/download/v0.10.1-timo/serie-timo-0.10.1-timo-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "0f793eb8ddf74c851fe693b19b753dcf9bfbc8973f0f7ec8af3f93202d03a57c"
+      url "https://github.com/Timo-In/serie/releases/download/v0.10.1-timo.1/serie-timo-0.10.1-timo.1-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "bede3593de8ec7f7f15b1b8233bb202c56f9e0877ce7d1cb7865e3d972433c64"
     else
-      url "https://github.com/Timo-In/serie/releases/download/v0.10.1-timo/serie-timo-0.10.1-timo-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "a0bd7009cf5d3473f8c515ef6fa2443aed6983fe181d94729cf59b27639a4763"
+      url "https://github.com/Timo-In/serie/releases/download/v0.10.1-timo.1/serie-timo-0.10.1-timo.1-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "07a33e7fc9f0f9ce729263d67c5c7dc27a0fbcd5d19fadbe70fcf5f37dc208e1"
     end
   end
 
