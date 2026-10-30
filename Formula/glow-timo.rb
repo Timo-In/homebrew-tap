@@ -5,26 +5,26 @@
 class GlowTimo < Formula
   desc "Render Markdown on the CLI with Timo-In's custom features"
   homepage "https://github.com/Timo-In/glow"
-  version "3.0.0-timo.1"
+  version "3.0.0-timo.2"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/Timo-In/glow/releases/download/v3.0.0-timo.1/glow-timo_3.0.0-timo.1_Darwin_arm64.tar.gz"
-      sha256 "2bbc03fda6527c943c6c99895dd921e66201ff035371be2ba6c54d5d69d05189"
+      url "https://github.com/Timo-In/glow/releases/download/v3.0.0-timo.2/glow-timo_3.0.0-timo.2_Darwin_arm64.tar.gz"
+      sha256 "44dba305bf781cdc04bc4c34b530aa9feee026e0d1f4b29e72177c58c3ac8e95"
     else
-      url "https://github.com/Timo-In/glow/releases/download/v3.0.0-timo.1/glow-timo_3.0.0-timo.1_Darwin_x86_64.tar.gz"
-      sha256 "98dc850cf095bece89839f5be55d356dca3e787485839d1cd28442d4bb3636f1"
+      url "https://github.com/Timo-In/glow/releases/download/v3.0.0-timo.2/glow-timo_3.0.0-timo.2_Darwin_x86_64.tar.gz"
+      sha256 "38a830dea3769185ccc5200c4f4e4d6fba2add8749b9a6bd765daeda384af8a7"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/Timo-In/glow/releases/download/v3.0.0-timo.1/glow-timo_3.0.0-timo.1_Linux_arm64.tar.gz"
-      sha256 "94ad96fe91f296fe01f78b04f3ed06c033078b26d095e408c82dd5573a1ac3bd"
+      url "https://github.com/Timo-In/glow/releases/download/v3.0.0-timo.2/glow-timo_3.0.0-timo.2_Linux_arm64.tar.gz"
+      sha256 "0eb8a8e321a62b02174fad1a4ca6d24ed56567135b2f0c004367cf6e336d0f0d"
     else
-      url "https://github.com/Timo-In/glow/releases/download/v3.0.0-timo.1/glow-timo_3.0.0-timo.1_Linux_x86_64.tar.gz"
-      sha256 "d0f69fff3cf2735e440f2e425b3f3887cfeaed84e81b67ecd815c5dc26a69606"
+      url "https://github.com/Timo-In/glow/releases/download/v3.0.0-timo.2/glow-timo_3.0.0-timo.2_Linux_x86_64.tar.gz"
+      sha256 "dd9acc779d1b1dea56e5d262db121c4c8f5ace8119115331a82dbccdf98e4e47"
     end
   end
 
